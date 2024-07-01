@@ -18,7 +18,7 @@ I'd like to express my gratitude to the following individuals and resources:
 - **Dave Gray**: His tutorial videos on Semantic HTML Tags, HTML Forms and Inputs, and How to Organize CSS were invaluable in improving my skills.
 
 ## Learning Resources
-- [CodingLab's Responsive Login and Signup Form in HTML CSS & JavaScript](https://youtu.be/ROqsYIVCJ5Y?si=tyOe0OUYPe1syr9M)
+- [CodingLab's Responsive Login and Signup Form in HTML CSS & JavaScript](https://youtu.be/VP0DS6iXbXY?si=mvTqpg3JmJ8PpE3a)
 - [Dave Gray's Semantic HTML Tags Tutorial](https://youtu.be/kX3TfdUqpuU?si=G4mG-_JaiVHozZ5e)
 - [Dave Gray's HTML Forms and Inputs Tutorial](https://youtu.be/frAGrGN00OA?si=UaF9EoHxkACzv4TI)
 - [Dave Gray's How to Organize CSS Tutorial](https://youtu.be/MNPdifWAAa4?si=c8OmbrbLbp7gGurk)
