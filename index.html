@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign-up Webpage</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5fb6040433.js" crossorigin="anonymous" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <article class="forms">
+            <h1 class="offscreen">Login or Sign Up</h1>
+
+            <!-- LOGIN FORM -->
+
+            <section class="form login">
+                <h2 class="title">Login</h2>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <p class="input-field">
+                        <input type="email" name="email" id="email-login" placeholder="Enter your email" required
+                            autocomplete="on" spellcheck="false" onkeyup="validate_email()">
+                        <span id="email_alert1"></span>
+                        <i class="uil uil-envelope icon"></i>
+                    </p>
+                    <span id="email_alert2" class="offscreen"></span>
+
+                    <p class="input-field">
+                        <input type="password" name="password" id="password-login" class="password"
+                            placeholder="Enter your password" required>
+                        <i class="uil uil-padlock icon"></i>
+                        <i class="uil uil-eye-slash showHidePass"></i>
+                    </p>
+
+                    <ul class="checkbox-text">
+                        <li class="checkbox-content">
+                            <input type="checkbox" name="logCheck" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </li>
+                        <li>
+                            <a href="#" class="text">
+                                Forgot password?
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="input-field button">
+                        <button type="submit" id="login-button" formaction="https://httpbin.org/post" formmethod="post"
+                            onclick="lsRememberMe()">Login</button>
+                    </p>
+                </form>
+
+                <p class="login-sign-up">
+                    <span class="text">
+                        Not a member?
+                        <a href="#" class="text sign-up-tab">
+                            Create an account
+                        </a>
+                    </span>
+                </p>
+
+                <p class="line"></p>
+
+                <div class="login-options">
+                    <form action="https://www.facebook.com/login/">
+                        <button class="lo-button"><i class="fa-brands fa-facebook"></i></button>
+                    </form>
+                    <form action="https://accounts.google.com/">
+                        <button class="lo-button"><i class="fa-brands fa-google"></i></button>
+                    </form>
+                </div>
+
+            </section>
+
+            <!-- SIGN UP FORM -->
+
+            <section class="form sign-up">
+                <h2 class="title">Sign Up</h2>
+
+                <form action="https://httpbin.org/get" method="get" onsubmit="return checkForm(this);">
+                    <p class="input-field">
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required
+                            autocomplete="on">
+                        <i class="uil uil-user icon"></i>
+                    </p>
+                    <p class="input-field">
+                        <input type="email" name="email" id="email-sign-up" placeholder="Enter your email" required
+                            autocomplete="on" spellcheck="false" onkeyup="validate_emailReg()">
+                        <span id="email_alert3"></span>
+                        <i class="uil uil-envelope icon"></i>
+                    </p>
+                    <span id="email_alert4" class="offscreen"></span>
+
+                    <p class="input-field">
+                        <input type="password" name="password" id="password-sign-up" class="password"
+                            placeholder="Create password" required>
+                        <i class="uil uil-padlock icon"></i>
+                    </p>
+                    <p class="input-field">
+                        <input type="password" name="password" id="password-confirm" class="password"
+                            placeholder="Confirm password" onkeyup="validate_password()" required>
+                        <span id="pass_alert1"></span>
+                        <i class="uil uil-lock-alt icon"></i>
+                        <i class="uil uil-eye-slash showHidePass"></i>
+                    </p>
+                    <span id="pass_alert2" class="offscreen"></span>
+
+                    <p id="tacbox-content" class="tacbox">
+                        <input id="agree" name="agree" type="checkbox" class="tac-input" value="yes">
+                        <label for="agree"> Accept <a href="#" class="text">Terms and
+                                Conditions</a>.</label>
+                        <span id="tac_alert1"></span>
+                    </p>
+                    <span id="tac_alert2" class="offscreen"></span>
+
+                    <p class="input-field button">
+                        <button type="submit" id="sign-up-button" formaction="https://httpbin.org/post"
+                            formmethod="post">
+                            Sign Up
+                        </button>
+                    </p>
+                </form>
+
+                <p class="login-sign-up">
+                    <span class="text">
+                        Already a member?
+                        <a href="#" class="text login-tab">
+                            Back to login
+                        </a>
+                    </span>
+                </p>
+            </section>
+        </article>
+    </div>
+</body>
+
+</html>
