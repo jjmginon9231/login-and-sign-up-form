@@ -88,9 +88,12 @@
                 <form action="https://httpbin.org/get" method="get" onsubmit="return checkForm(this);">
                     <p class="input-field">
                         <input type="text" name="name" id="name" placeholder="Enter your name" required
-                            autocomplete="on">
+                            autocomplete="on" onkeyup="validate_nameReg()">
+                        <span id="name_alert3"></span>
                         <i class="uil uil-user icon"></i>
                     </p>
+                    <span id="name_alert4" class="offscreen"></span>
+
                     <p class="input-field">
                         <input type="email" name="email" id="email-sign-up" placeholder="Enter your email" required
                             autocomplete="on" spellcheck="false" onkeyup="validate_emailReg()">
@@ -104,6 +107,10 @@
                             placeholder="Create password" required>
                         <i class="uil uil-padlock icon"></i>
                     </p>
+                    <p id="message">
+                        Your password is <span id="strength"></span>
+                    </p>
+
                     <p class="input-field">
                         <input type="password" name="password" id="password-confirm" class="password"
                             placeholder="Confirm password" onkeyup="validate_password()" required>
