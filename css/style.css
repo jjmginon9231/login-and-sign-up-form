@@ -168,6 +168,15 @@ ul {
     padding: 8px;
 }
 
+/* PASSWORD STRENGTH */
+
+#message {
+    display: none;
+    margin: 4px;
+    color: var(--FONT-COLOR);
+    font-size: 0.8rem;
+}
+
 /* || TERMS AND CONDITIONS */
 
 .form .checkbox-text {
