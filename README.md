@@ -1,6 +1,6 @@
 # Login and Sign-Up Form
 
-This project is a responsive login and sign-up form inspired by CodingLab's Responsive Login and Signup Form tutorial. While the design draws inspiration from CodingLab, I've incorporated best practices for HTML and CSS that I learned from Dave Gray's tutorial videos on Semantic HTML Tags, HTML Forms and Inputs, and How to Organize CSS.
+This project is a responsive login and sign-up form inspired by CodingLab's Responsive Login and Signup Form tutorial. While the design draws inspiration from [CodingLab](https://www.codingnepalweb.com/), I've incorporated best practices for HTML and CSS that I learned from [Dave Gray](https://github.com/gitdagray)'s tutorial videos on HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -19,9 +19,9 @@ I'd like to express my gratitude to the following individuals and resources:
 
 ## Learning Resources
 - [CodingLab's Responsive Login and Signup Form in HTML CSS & JavaScript](https://youtu.be/VP0DS6iXbXY?si=mvTqpg3JmJ8PpE3a)
-- [Dave Gray's Semantic HTML Tags Tutorial](https://youtu.be/kX3TfdUqpuU?si=G4mG-_JaiVHozZ5e)
-- [Dave Gray's HTML Forms and Inputs Tutorial](https://youtu.be/frAGrGN00OA?si=UaF9EoHxkACzv4TI)
-- [Dave Gray's How to Organize CSS Tutorial](https://youtu.be/MNPdifWAAa4?si=c8OmbrbLbp7gGurk)
+- [Dave Gray's HTML Full Course](https://youtu.be/mJgBOIoGihA?si=wwkoN_nNt1vwFd92)
+- [Dave Gray's CSS Full Course](https://youtu.be/n4R2E7O-Ngo?si=fSqv9FJ3rZomQdSi)
+- [Dave Gray's JavaScript Full Course](https://youtu.be/EfAl9bwzVZk?si=WDr7U9gB2LdnID1p)
 
 ## Contact
 Feel free to reach out for collaborations or work opportunities.
