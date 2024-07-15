@@ -1,5 +1,7 @@
 # Login and Sign-Up Form
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/48939fa6-b4aa-4e7d-9858-8fc6316cb0f7/deploy-status)](https://app.netlify.com/sites/login-and-sign-up-form-2024/deploys)
+
 This project is a responsive login and sign-up form inspired by CodingLab's Responsive Login and Signup Form tutorial. While the design draws inspiration from [CodingLab](https://www.codingnepalweb.com/), I've incorporated best practices for HTML and CSS that I learned from [Dave Gray](https://github.com/gitdagray)'s tutorial videos on HTML, CSS, and JavaScript.
 
 ## Features
